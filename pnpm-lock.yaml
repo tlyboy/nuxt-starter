@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@unocss/reset':
-    specifier: ^0.56.5
-    version: 0.56.5
-
 devDependencies:
   '@antfu/eslint-config':
     specifier: 1.0.0-beta.27
@@ -18,7 +13,7 @@ devDependencies:
     version: 1.1.21
   '@nuxt/devtools':
     specifier: latest
-    version: 1.0.0-beta.1(nuxt@3.7.4)(vite@4.4.11)
+    version: 1.0.0-beta.2(nuxt@3.7.4)(vite@4.4.11)
   '@nuxtjs/color-mode':
     specifier: ^3.3.0
     version: 3.3.0
@@ -75,7 +70,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 6.7.5(@typescript-eslint/parser@6.7.5)(eslint@8.51.0)(typescript@5.2.2)
       '@typescript-eslint/parser': 6.7.5(eslint@8.51.0)(typescript@5.2.2)
       eslint: 8.51.0
-      eslint-config-flat-gitignore: 0.1.0
+      eslint-config-flat-gitignore: 0.1.1
       eslint-plugin-antfu: 1.0.0-beta.12(eslint@8.51.0)(typescript@5.2.2)
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.51.0)
       eslint-plugin-i: 2.28.1(@typescript-eslint/parser@6.7.5)(eslint@8.51.0)
@@ -1156,8 +1151,8 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/devtools-kit@1.0.0-beta.1(nuxt@3.7.4)(vite@4.4.11):
-    resolution: {integrity: sha512-Zm9Wy0nAietwSb0S0chG12p99vCcfkN+wBN+FJIqUaUX8AOcDXhaEGZ0gmzCAwH9MtD1LEhwyoooeWHFme9+iQ==}
+  /@nuxt/devtools-kit@1.0.0-beta.2(nuxt@3.7.4)(vite@4.4.11):
+    resolution: {integrity: sha512-CLOrUAlerqS2jZw8zFbWM+R5PIfwzFKbmAJDQklqvGcCfi4MtSbOoO7f5O6F6jKzTFkOi1/pW/FSpvpsyMV/gw==}
     peerDependencies:
       nuxt: ^3.7.4
       vite: '*'
@@ -1172,8 +1167,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-wizard@1.0.0-beta.1:
-    resolution: {integrity: sha512-xq8unTHjroV0siLMaJZ3HHdv+VukzRWnhu5XW7UqR/r4wBbvHBSrOFl9PpHRS/Mo4qJCPyOcZkOKCedr80jHew==}
+  /@nuxt/devtools-wizard@1.0.0-beta.2:
+    resolution: {integrity: sha512-kHiLfHuRla+kAQO7xHL+jmPk0OINis3ilakbBm6DtTdqg4citHfP5Qm0IyvOXW9PfI0Gr7mOh50ZtvzA3dMNkw==}
     hasBin: true
     dependencies:
       consola: 3.2.3
@@ -1188,16 +1183,16 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@nuxt/devtools@1.0.0-beta.1(nuxt@3.7.4)(vite@4.4.11):
-    resolution: {integrity: sha512-Ji/WbjTsNnz/ftRQLB2pFpvlrLCz17nbuaA9mI3+v4w+LhRWDy5KmwHn05AmZz+OR3+VICINr1HZE7kkKieUkg==}
+  /@nuxt/devtools@1.0.0-beta.2(nuxt@3.7.4)(vite@4.4.11):
+    resolution: {integrity: sha512-GEPnPEsTCFDA+r7IAnUKnVJtk6tJLo0pK2DXBEaCXhnFcrneXLzyNFEtKffTzISGTgVISMAo5ps0Twtq0vNspQ==}
     hasBin: true
     peerDependencies:
       nuxt: ^3.7.4
       vite: '*'
     dependencies:
       '@antfu/utils': 0.7.6
-      '@nuxt/devtools-kit': 1.0.0-beta.1(nuxt@3.7.4)(vite@4.4.11)
-      '@nuxt/devtools-wizard': 1.0.0-beta.1
+      '@nuxt/devtools-kit': 1.0.0-beta.2(nuxt@3.7.4)(vite@4.4.11)
+      '@nuxt/devtools-wizard': 1.0.0-beta.2
       '@nuxt/kit': 3.7.4
       birpc: 0.2.14
       consola: 3.2.3
@@ -1493,7 +1488,6 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
-      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -2250,6 +2244,7 @@ packages:
 
   /@unocss/reset@0.56.5:
     resolution: {integrity: sha512-//Pv2ITAdnpWB9FIr0JiQVl1rL1XgISR8mu3OikhCfi6d/4OH+o6/WyE7evF1pOmk1JjsQlznOABIZXQlcpbHQ==}
+    dev: true
 
   /@unocss/rule-utils@0.56.5:
     resolution: {integrity: sha512-CXIGHCIC9B8WUl9KbbFMSZHcsIgfmI/+X0bjBv6xrgBVC1EQ2Acq4PYnJIbaRGBRAhl9wYjNL7Zq2UWOdowHAw==}
@@ -3882,7 +3877,7 @@ packages:
       is-string: 1.0.7
       is-typed-array: 1.1.12
       is-weakref: 1.0.2
-      object-inspect: 1.12.3
+      object-inspect: 1.13.0
       object-keys: 1.1.1
       object.assign: 4.1.4
       regexp.prototype.flags: 1.5.1
@@ -4020,8 +4015,8 @@ packages:
       eslint: 8.51.0
     dev: true
 
-  /eslint-config-flat-gitignore@0.1.0:
-    resolution: {integrity: sha512-5nQMQFRkkhCb+ejFhKSATn/41I7ot9oRcnEDzfqwMlBE9036qM9ioYBDtKLpwmlICXr/J7naMFfb39pa4v4sGA==}
+  /eslint-config-flat-gitignore@0.1.1:
+    resolution: {integrity: sha512-ysq0QpN63+uaxE67U0g0HeCweIpv8Ztp7yvm0nYiM2TBalRIG6KQLO5J6lAz2gkA8KVis/QsJppe+BR5VigtWQ==}
     dependencies:
       parse-gitignore: 2.0.0
     dev: true
@@ -6030,10 +6025,6 @@ packages:
     hasBin: true
     dev: true
 
-  /napi-wasm@1.1.0:
-    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
-    dev: true
-
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
@@ -6458,8 +6449,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /object-inspect@1.12.3:
-    resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
+  /object-inspect@1.13.0:
+    resolution: {integrity: sha512-HQ4J+ic8hKrgIt3mqk6cVOVrW2ozL4KdvHlqpBv9vDYWx9ysAgENAdvy4FoGF+KFdhR7nQTNm5J0ctAeOwn+3g==}
     dev: true
 
   /object-keys@1.1.1:
@@ -7577,7 +7568,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
-      object-inspect: 1.12.3
+      object-inspect: 1.13.0
     dev: true
 
   /siginfo@2.0.0:

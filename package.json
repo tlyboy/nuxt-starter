@@ -11,9 +11,6 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "dependencies": {
-    "@unocss/reset": "^0.56.5"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
     "@iconify-json/carbon": "^1.1.21",
