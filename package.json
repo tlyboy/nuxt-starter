@@ -11,9 +11,15 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "dependencies": {
+    "@unocss/reset": "^0.56.5"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.27",
+    "@iconify-json/carbon": "^1.1.21",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@unocss/nuxt": "^0.56.5",
     "eslint": "^8.51.0",
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",
