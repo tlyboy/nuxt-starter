@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/color-mode',
     '@unocss/nuxt',
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
+    '@vueuse/nuxt',
   ],
   colorMode: {
     classSuffix: '',
