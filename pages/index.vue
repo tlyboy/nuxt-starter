@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>
-      Nuxt Starter
+      Nuxt starter
     </p>
   </div>
 </template>

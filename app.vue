@@ -3,7 +3,7 @@ useHead({
   htmlAttrs: {
     lang: 'zh-CN',
   },
-  title: 'Nuxt Starter',
+  title: 'Nuxt starter',
 })
 </script>
 
