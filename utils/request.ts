@@ -1,8 +1,6 @@
 import axios from 'axios'
 
-const request = axios.create({
-  url: 'http://localhost:3000',
-})
+const request = axios.create()
 
 // 添加请求拦截器
 request.interceptors.request.use(
