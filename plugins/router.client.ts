@@ -5,6 +5,7 @@ export default defineNuxtPlugin(() => {
 
   router.beforeEach((to, from, next) => {
     NProgress.start()
+
     next()
   })
 
