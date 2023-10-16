@@ -1,6 +1,6 @@
 # nuxt-starter
 
-🚀 Nuxt Starter
+🚀 Nuxt starter
 
 ## 使用说明
 
