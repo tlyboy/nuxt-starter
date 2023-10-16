@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
     '~/assets/styles/main.css',
+    '~/assets/styles/nprogress.css',
   ],
   modules: [
     '@nuxtjs/color-mode',
