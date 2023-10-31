@@ -16,6 +16,9 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
+  imports: {
+    dirs: ['stores'],
+  },
   nitro: {
     routeRules: {
       '/github/**': { proxy: 'https://api.github.com/**' },
