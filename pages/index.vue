@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import { appDescription } from '~/constants'
+</script>
+
 <template>
   <div>
     <p>
-      Nuxt starter
+      {{ appDescription }}
     </p>
   </div>
 </template>
