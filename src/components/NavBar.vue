@@ -3,13 +3,11 @@
     <DarkToggle />
 
     <a
-      class="icon-btn"
+      class="icon-btn i-carbon-logo-github"
       href="https://github.com/tlyboy/nuxt-starter"
       target="_blank"
       rel="noopener noreferrer"
       title="GitHub"
-    >
-      <div class="i-carbon-logo-github" />
-    </a>
+    />
   </nav>
 </template>
