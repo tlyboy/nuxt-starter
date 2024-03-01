@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { appDescription } from '@/constants'
+import { appDescription } from '~/constants'
 
 definePageMeta({
   layout: 'home',
