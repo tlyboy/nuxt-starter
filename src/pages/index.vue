@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { appDescription } from '~/constants'
+
 definePageMeta({
   layout: 'home',
 })
@@ -6,6 +8,6 @@ definePageMeta({
 
 <template>
   <div>
-    <p>🚀 Nuxt starter</p>
+    <p>{{ appDescription }}</p>
   </div>
 </template>
